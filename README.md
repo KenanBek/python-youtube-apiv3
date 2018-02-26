@@ -13,7 +13,8 @@ It is wrapper over Google API Python Client for retrieving YouTube data.
 
 ### Run
 
-To run quick start demo you need API Key. Please visit https://developers.google.com/youtube/v3/getting-started for 
+To run quick start demo you need API Key.
+Please visit https://developers.google.com/api-client-library/python/guide/aaa_apikeys for 
 more information. When you have your own API Key please replace following code in **quickstart.py**:
 
     API_SERVICE_NAME = 'youtube'

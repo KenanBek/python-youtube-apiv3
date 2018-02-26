@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 
 API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
-API_KEY = 'AIzaSyBGvRcUjTaMQi9ry585d09nWdbed7rRdBs'
+API_KEY = 'api-key'  # see https://developers.google.com/api-client-library/python/guide/aaa_apikeys
 
 
 def get_authenticated_service():
