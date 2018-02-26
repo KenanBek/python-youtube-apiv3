@@ -24,6 +24,26 @@ And then run following command:
 
     python quickstart.py
 
+
+### Functions
+
+For now implemented wrappers for folling API calls.
+
+- videos_list
+- channels_list
+- video_categories_list
+- search_list
+
+As a next step I am going to add additional methods with parameters. Example:
+
+    search_list(q=None, regionCode=None, order=None)
+    
+    or
+    
+    videos_list(chart=None, regionCode=None)
+
+I think these parameters will simplify the use of API.
+
 ### Related Links
 
 - [Google API Python Client](https://github.com/google/google-api-python-client)
